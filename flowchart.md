@@ -1,6 +1,6 @@
 ```text
                              
-                             ┌───────────────────────────────┐
+                             ┌────────────────────────────────┐
                              │          FRONTEND UI           │
                              │   Next.js / React / Streamlit  │
                              │  Proposal Wizard + Editor UI   │
@@ -9,10 +9,10 @@
                                              │ REST API
                                              ▼
                              ┌───────────────────────────────┐
-                             │     PROPOSAL ORCHESTRATOR      │
-                             │        FastAPI (Python)        │
-                             │   Workflow + Session Control   │
-                             └───────────────┬────────────────┘
+                             │     PROPOSAL ORCHESTRATOR     │
+                             │        FastAPI (Python)       │
+                             │   Workflow + Session Control  │
+                             └───────────────┬───────────────┘
                                              │
         ┌────────────────────────────────────┼────────────────────────────────────┐
         │                                    │                                    │
@@ -27,8 +27,8 @@
                 ▼                              ▼                                  ▼
 
      ┌────────────────────────┐    ┌────────────────────────────┐    ┌────────────────────────────┐
-     │ Structured RFP Output  │    │ Vector DB: Qdrant / Chroma │    │ Proposal JSON Store         │
-     │ (requirements, scope)  │    │ Embeddings: BGE / E5 local │    │ PostgreSQL / JSON storage   │
+     │ Structured RFP Output  │    │ Vector DB: Qdrant / Chroma │    │ Proposal JSON Store        │
+     │ (requirements, scope)  │    │ Embeddings: BGE / E5 local │    │ PostgreSQL / JSON storage  │
      └────────────────────────┘    └──────────────┬─────────────┘    └──────────────┬─────────────┘
                                                   │
               ┌───────────────────────────────────┼──────────────────────────────────┐
