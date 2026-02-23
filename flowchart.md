@@ -39,7 +39,7 @@
    │ Methodology Templates DB   │   │ Previous Proposals DB      │   │ Reusable Sections DB       │
    │ PostgreSQL + embeddings    │   │ PostgreSQL + embeddings    │   │ PostgreSQL + embeddings    │
    └──────────────┬─────────────┘   └──────────────┬─────────────┘   └──────────────┬─────────────┘
-                  │                                │                                 │
+                  │                                │                                │
                   └───────────────┬────────────────┴───────────────┬────────────────┘
                                   ▼                                ▼
                          ┌────────────────────────────────────────────┐
